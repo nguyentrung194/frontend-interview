@@ -40,7 +40,7 @@ export default function SoloCreateOption({ setData }: any) {
     if (!!value) {
       fetchData(value);
     }
-  }, [setData, value]);
+  }, [setData, value, options]);
 
   React.useEffect(() => {
     async function listKeys() {
